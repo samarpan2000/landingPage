@@ -1,0 +1,594 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+/* START OF IMG CONT.   */
+.logo-link{
+    text-decoration: none;
+    
+}
+.img-container {
+    background-image:linear-gradient(rgba(0, 212, 254, 0.132),rgba(255, 255, 255, 0.066)) , url("./images/Adventuredest/interlaken_adv.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+
+}
+
+
+/* END OF IMG CONT. */
+
+/* START OF NAV BAR */
+nav{
+background-color: rgba(234, 223, 245, 0.212);
+padding: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+height: auto;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 60px;
+}
+.logo h1{
+    font-family: 'Satisfy', cursive;
+    text-shadow:
+            -1px -1px 2px #ffffff,
+            1px -1px 2px #ffffff,
+            -1px 1px 2px #ffffff,
+            1px 1px 2px #ffffff;
+    
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin-right:20px;    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1.5px;
+    padding: 7px;
+    transition: 0.5s;   
+}   
+nav ul li a:hover {
+    background-color: rgba(255, 0, 132, 0.608);
+    font-size: 15px;
+}
+
+/* END OF NAV BAR */
+
+/* START OF MAIN BODY  */
+.hero{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+.hero h1{
+    color: rgba(251, 0, 0, 0.842);
+    
+    text-shadow:
+            -1px -1px 2px #ffffff,
+            1px -1px 2px #ffffff,
+            -1px 1px 2px #ffffff,
+            1px 1px 2px #ffffff;
+    font-size: 40px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+}
+.hero h3 {
+    color: white;
+  
+    text-shadow:
+            -1px -1px 2px #000,
+            1px -1px 2px #000,
+            -1px 1px 2px #000,
+            1px 1px 2px #000;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+}
+.input-btn{
+    padding: 10px;
+    outline: none;
+    margin: 15px 10px;
+    color: white;
+    background-color: hotpink;
+    border: none;
+    border-radius: 7px;
+    font-family: 'Satisfy', cursive;
+    font-size: 18px;
+    transition: 0.5s;
+}
+.input-btn:hover {
+    background-color: rgb(1, 183, 255);
+    cursor: pointer;
+}
+
+
+/* END OF MAIN BODY */
+
+/* START OF feature BODY  */
+.feature-heading {
+    background-color: #f2f3f7;
+    padding: 20px;
+}
+.feature-heading h1{
+    text-align: justify;
+    font-family: 'Satisfy', cursive;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+.feature-dest-container{
+    display: flex;
+    justify-content: center;
+    align-items:baseline;
+    flex-wrap: wrap;
+    background-color: #f2f3f7;
+    width: 100%;
+
+}
+
+.feature-card {
+   
+    width: 350px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: none;
+    padding: 20px;
+    box-shadow: -4px -4px 8px rgba(255, 255, 255, 1), -4px -4px 12px rgba(255, 255, 255, 0.5), inset 4px 4px 4px rgba(255, 255, 255, 1), 4px 4px 8px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+    box-shadow: inset -4px -4px 16px rgba(255, 255, 255, 0.7),inset -4px -4px 24px rgba(255, 255, 255, 0.7), inset 4px 4px 8px rgba(255, 255, 255, 0.7),inset 4px 4px 16px rgba(0, 0, 0, .7);
+}
+.feature-img{
+    width: 100%;
+}
+.feature-img img{
+    width: 100%;
+    height: auto;
+}
+.feature-content{
+    padding: 15px;
+    
+   
+}
+.feature-content h1{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+}
+.feature-content p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.feature-content .btn{
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    transition: 0.5s ease-in-out; 
+
+}
+.feature-content .btn:hover {
+     color: white;
+    background-color: skyblue;
+
+}
+/* END OF feature BODY */
+
+/* START OF WHY US  */
+.why-us-container{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+padding: 20px;
+
+}
+.why-us-img{
+
+    width: 350px;
+
+    
+}
+.why-us-img img{
+    width: 100%;
+    height: auto;
+
+}
+.why-us-content{
+    background-color: azure;
+    width: 400px;
+    padding: 20px;
+    margin-top: 15px;
+    border-radius: 20px;
+}
+.why-us-heading {
+    font-family: 'Satisfy', cursive;
+}
+.sections ul h2{
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+    font-size: 14px;
+    margin: 10px 10px;
+}
+.why-us-lists{
+    list-style-type: disc;
+}
+.why-us-lists li p {
+    font-family: sans-serif;
+    font-size: 12px;
+    padding-left: 15px;
+}
+/* END OF WHY US */
+
+/* START OF BOOK TRIP */
+.book-trip-container{
+    background-image: url("./images/form_back.jpg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-heading {
+    font-size: 24px;
+    font-family: 'Satisfy', cursive;
+    text-decoration: underline;
+    color: black;
+    
+}
+.booking-form{
+    background-color: rgba(255, 255, 255, 0.516);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: baseline;
+    border-radius: 20px;
+    box-shadow: 1px 1px 15px grey;
+    padding: 20px;
+    min-width: 250px;
+    width: 30%;
+    height: 80%;
+}
+.booking-form input{
+    width:100%;
+
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    padding: 4px;
+
+    background-color: #c0c0c0b7;
+    transition: 0.5s ease-in-out;
+}
+.booking-form label {
+   font-family:cursive;
+}
+.booking-form input::placeholder {
+    color: rgba(8, 8, 8, 0.756);
+    
+    
+}
+.booking-form input:hover {
+    cursor: pointer;
+    background-color: #a6a6a6;
+}
+.submit-btn{
+    margin-top: 7px;
+    height: 30px;
+    background-color: red !important;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.submit-btn:hover {
+   cursor: pointer;
+    background-color: rgb(255, 149, 0) !important;
+    padding: 5px;
+}
+
+/* END OF BOOK TRIP */
+
+/* Start of FOOTER */
+.footer{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.social-media-container{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.social-media-icons{
+   
+    box-shadow: 1px 1px 4px grey;
+    min-width: 170px;
+    width: 20%;
+    padding: 10px;
+    border-radius:15px;
+   
+}
+.social-media-icons ul{
+   
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+
+.social-media-icons ul li i{
+   
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+}
+.fb{
+    color: rgb(0, 123, 255);
+    
+}
+.tw {
+    color: rgb(0, 0, 0);
+}
+.yt {
+    color: rgb(255, 0, 0);
+}
+.wp {
+    color: rgb(0, 255, 0);
+}
+.fb:hover,.yt:hover,.tw:hover,.wp:hover{
+    text-shadow: 1px 1px 1px grey;
+}
+.copyright-text{
+
+    color: black;
+    font-family: 'Satisfy', cursive;
+    text-align: center;
+    font-size: 16px;
+    margin: 20px;
+}
+.news-letter{
+
+    box-shadow: 1px 1px 5px grey;
+    padding: 10px;
+    border-radius: 15px;
+    min-width:300px;
+    width: 400px;
+
+}
+.news-letter label{
+    color:black;
+    font-size: 14px;
+    font-family: 'Satisfy', cursive;
+}
+.news-letter input[type="email"]{
+    width: 70%;
+    height: 20px;
+    padding: 5px;
+}
+.news-letter input[type="button"] {
+    width: 25%;
+    height: 25px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+    font-family: 'Satisfy', cursive;
+    border: none;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+.news-letter input[type="button"]:hover {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    cursor: pointer;
+}
+.news-letter input{
+    outline: none;
+    border: 1px solid grey;
+    border-radius:5px;
+    padding: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+
+}
+
+/* END OF FOOTER*/
+
+@media only screen and (max-width: 768px) {
+    
+    .img-container{
+        width: 100%;
+        height: 100%;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .hero h1 {
+        font-size: 20px;
+    }
+
+    .hero h3 {
+        font-size: 16px;
+    }
+    .input-btn{
+        font-size: 10px;
+    }
+
+    /* Navigation bar*/
+    nav{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+    }
+    nav ul li {
+        margin: 10px;
+    }
+
+    nav ul li a {
+        background-color: rgba(4, 211, 248, 0.801);
+        font-size: 14px;
+    }
+/* feature heading */
+.feature-heading {
+    width: 100%;
+}
+
+.feature-heading h1 {
+    text-align: center;
+    font-size: 18px;
+
+
+}
+    /* Feature cards */
+.feature-dest-container {
+    flex-direction: column;
+    width: 100%;
+
+
+}
+
+.feature-card {
+
+    width: 90%;
+    margin: 5%;
+
+    padding: 5%;
+   
+}
+
+
+
+
+.feature-content h1 {
+    font-size: 16px;
+
+}
+
+.feature-content p {
+    font-size: 12px;
+
+}
+
+    /* Why us section */
+        .why-us-container {
+            justify-content: center;
+        }
+    
+        .why-us-img {
+            width: 50%;
+        }
+        .why-us-content {
+            width: 90%;
+        }
+        .why-us-heading h1{
+            font-size: 18px;
+
+        }
+        .sections ul h2 {
+            font-size: 12px;
+        }
+        .why-us-lists li p {
+            font-size: 10px;
+        }
+
+    /* Book trip form */
+        .book-trip-container {
+            height: 100%;
+        }
+    
+        .form-heading {
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+    /* Footer */
+   .footer {
+        
+        width: 100%;
+        height: 100%;
+        
+
+   }
+
+   .social-media-container {
+    flex-direction: column;
+
+   }
+
+   .social-media-icons {
+
+       width: 100%;
+   }
+
+   .social-media-icons ul li i {
+
+       font-size: 20px;
+       
+   }
+
+   .news-letter {
+       width: 100%;
+
+   }
+
+}
